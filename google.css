@@ -1,0 +1,105 @@
+@font-face {
+	font-family: 'Roboto-light';
+	src: url('Roboto-Light.ttf');
+}
+
+html {
+	height: 100vh;
+}
+
+header {
+  height: 5vh;
+	display: flex;
+	justify-content: flex-end;
+}
+
+main {
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+main img {
+	height: 92px;
+	width: 272px;
+}
+
+.logo {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main p {
+	width: 90%;
+	margin: auto;
+}
+
+.googlesearch {
+	margin: 10px 0px 0px 0px;
+	width: 30%;
+	border-radius: 24px;
+	
+}
+
+footer {
+	background-color: rgb(192, 192, 192);
+}
+
+body {
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid black;
+	font-family: 'Roboto-light', sans-serif ;
+	height: 100%;
+	margin: auto;
+	padding: 0;
+
+}
+main button {
+	margin: 20px 0px 20px 0px
+}
+.conteneur1 {
+	margin: 10px 20px;
+	padding: 20px 20px 20px 20px 10px;
+}
+
+a.black_link {
+	text-decoration: none;
+	color: black;
+	font-size: small;
+	margin: 10px 10px 5px 10px;
+}
+
+a:visited { 
+	color: black; 
+}
+
+#recherche {
+	border: 1px solid black;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	height: 60px;
+}
+
+
+
+#chance {
+	font-size: small;
+	width: 100%;
+	margin: 5px 0px 400px 0px;
+
+}
+
+
+
+.end_align {
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid #dadce0;
+}
